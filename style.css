@@ -1,0 +1,95 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    font-family: 'Times New Roman', Times, serif;
+    background: #2c3e50;
+}
+
+.main{
+    min-height: 65vh;
+    width: 53vw;
+    background: #dfe4ea;
+    margin-top: 17vh;
+    margin-left: 20vw;
+    border-radius: 15px;
+}
+
+
+h1{
+    padding-top: 50px;
+    padding-left: 40px;
+    padding-bottom: 15px;
+}
+
+.user{
+    padding-left: 40px;
+}
+
+.username{
+    width: 47vw;
+    height: 6vh;
+    margin-left: 40px;
+    border-radius: 10px;
+    padding-left: 10px;
+    margin-bottom: 20px;
+    margin-top: 8px;
+}
+
+button{
+    width: 16vw;
+    height: 6vh;
+    border-radius: 10px;
+    background: rgb(102, 188, 102);
+    border: none;
+    color: white;
+    margin-left: 19vw;
+}
+
+p{
+    margin-left: 19vw;
+    padding-top: 10px;
+    padding-bottom: 10px;
+}
+
+p span{
+    color: #40407a;
+    text-decoration: underline;
+}
+
+a{
+    margin-left: 23vw;
+    color: #40407a;
+}
+
+.contact{
+    display: flex;
+    margin-top: 30px;
+}
+
+.image img{
+    height: 2vw;
+    width: 4vh;
+    border-radius: 50%;
+   margin: 0px 0px 10px 7px;
+}
+
+@media screen and (max-width: 600px) {
+    .main {
+        width: 90vw;
+    }
+
+    .username,
+    button {
+        width: 100%;
+        margin-left: 0;
+    }
+
+    a,
+    p {
+        margin-left: 0;
+    }
+}
